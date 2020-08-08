@@ -5,4 +5,4 @@ LieDB is a wonderful data storage solution for prototyping:
 - disk-free
 - schema-free
 
-As a consequence, it has data and offers no storage.
+As a consequence, it has no data and offers no storage.
