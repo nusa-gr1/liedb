@@ -1,9 +1,9 @@
-import { LieDB, ILieDB } from './lieDB';
+import { lieDB, LieDBAPI } from './lieDB';
 
 describe("LieDB", () => {
-    let lie: ILieDB;
+    let lie: LieDBAPI;
     beforeEach(() => {
-        lie = LieDB()
+        lie = lieDB()
     })
 
     it('lies about creating', async () => {

@@ -8,14 +8,14 @@
 
 export type LieDBAccessor<T> = (obj: T) => Promise<T>
 
-export interface ILieDB {
+export interface LieDBAPI {
     get: LieDBAccessor<any>,
     insert: LieDBAccessor<any>,
     delete: LieDBAccessor<any>,
     update: LieDBAccessor<any>,
 }
-
-export function LieDB(): ILieDB {
+    
+export function lieDB(): LieDBAPI {
     return {
         get: (obj: any): Promise<any> => Promise.resolve(obj),
         insert: (obj: any): Promise<any> => Promise.resolve(obj),
