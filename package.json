@@ -1,0 +1,20 @@
+{
+  "name": "@nusahasthis/liedb",
+  "version": "1.0.0",
+  "description": "LieDB is a data-free database solution.",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "tsc",
+    "test": "jest",
+    "prepublishOnly": "test && tsc"
+  },
+  "author": "@nusahasthis",
+  "license": "MIT",
+  "devDependencies": {
+    "@babel/preset-typescript": "^7.10.4",
+    "@types/jest": "^26.0.9",
+    "jest": "^26.2.2",
+    "ts-jest": "^26.1.4",
+    "typescript": "^3.9.7"
+  }
+}
